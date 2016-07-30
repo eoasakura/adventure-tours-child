@@ -1,0 +1,72 @@
+/*
+	Theme Name: Adventure Tours Child
+	Theme URI: http://themeforest.net/user/themedelight/portfolio
+	Description: Adventure Tours child theme
+	Template: adventure-tours
+	Version: 1.0.0
+*/
+//Cargamos fuentes alternas
+@font-face {//para copy y textos generales
+    font-family: 'alt';
+    src: url('fonts/alternate-gothic-no.2-bt-webfont.woff2') format('woff2'),
+         url('fonts/alternate-gothic-no.2-bt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {//Para títulos de secciones
+    font-family: 'cosmic'; 
+    src: url('fonts/cosmic_two-webfont.woff2') format('woff2'),
+         url('fonts/cosmic_two-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family: 'alt';
+	font-size: 1.5em ;
+	font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'cosmic' !important; 
+	color:#fefefe;
+	text-shadow: 2px 3px #333 ;
+}
+h1{
+	font-size: 3em;
+}
+h2{
+	font-size: 2.6em;
+}
+h3{
+	font-size:2.2em;
+}
+.shadow{
+	h1,h2,h3{
+		text-shadow: 2px 3px #333 !important;
+	}
+}
+.margin-top{
+	margin-top: 0;
+}
+.margin-bottom{
+	margin-bottom: 0
+}
+//Override list style on images
+.widget ul li:before{
+	content: '';
+}
+.sow-slider-image {
+	min-height: 300px !important;
+}
+.short-copy{
+  font-size:2.5em;
+  text-align: center;
+  line-height: 1em;
+  padding: 0 5%;
+}
+
+//Sobreescribinos estilos de SiteOrigin
+.panel-grid{
+	margin-bottom: 0 !important;
+}
